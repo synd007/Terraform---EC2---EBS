@@ -26,9 +26,6 @@ REQUIREMENTS
 - SSH key at ~/.ssh/id_rsa.pub
 
 HOW TO USE
-# Clone the repository
-git clone https://github.com/your-username/ec2-ebs-terraform.git
-cd ec2-ebs-terraform
 # Initialize Terraform
 terraform init
 # Preview the plan
@@ -39,5 +36,6 @@ terraform apply
 
 OUTPUT
 The public IP address of the EC2 instance is printed on completion.
-
 Visit the IP in a browser to view the hosted page.
+
+Dont forget to destroy the test infrastructure using "Terraform destroy"
