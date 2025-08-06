@@ -1,5 +1,4 @@
-output "s3_endpoint" {
-  value = aws_s3_bucket.bucket.website_endpoint
-
+output "ec2_ip" {
+    value = aws_instance.web_server.public_ip
 }
 
